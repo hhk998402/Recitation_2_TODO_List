@@ -27,9 +27,8 @@ class TodoApplicationTest {
 		//TODO
 	}
 
-	@ParameterizedTest
-	@CsvSource({"true", "false"})
-	void addTodoTest(boolean returnValue) {
+	@Test
+	void addTodoTest() {
 		//TODO
 	}
 
