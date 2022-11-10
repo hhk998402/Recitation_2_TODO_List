@@ -21,9 +21,6 @@ class TodoApplicationTest {
 
 	private TodoService todoServiceMock;
 
-	private final Long userId = 42L;
-
-	private final String username = "tony-stark";
 
 	@BeforeEach
 	void setup() {
