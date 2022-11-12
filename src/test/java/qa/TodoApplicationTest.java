@@ -28,7 +28,7 @@ class TodoApplicationTest {
 		personServiceMock = mock(PersonService.class);
 		todoServiceMock = mock(TodoService.class);
 		Mockito.lenient().when(personServiceMock.findUsernameById(123L)).thenReturn(dummyUsername);
-		Mockito.lenient().when(personServiceMock.findUsernameById(123L)).thenReturn("noDataUsername");
+		Mockito.lenient().when(personServiceMock.findUsernameById(234L)).thenReturn("noDataUsername");
 		Mockito.lenient().when(todoServiceMock.addTodo(dummyUsername, "newTodo")).thenReturn(true);
 		Mockito.lenient().when(todoServiceMock.retrieveTodos(dummyUsername)).thenReturn(new ArrayList<>(Arrays.asList(
 				"todo1",
