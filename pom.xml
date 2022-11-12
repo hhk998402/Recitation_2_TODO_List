@@ -14,10 +14,22 @@
     </properties>
 
     <dependencies>
+<!--        <dependency>-->
+<!--            <groupId>io.github.cse1110</groupId>-->
+<!--            <artifactId>andy</artifactId>-->
+<!--            <version>[0.27,1.0.0)</version>-->
+<!--        </dependency>-->
         <dependency>
-            <groupId>io.github.cse1110</groupId>
-            <artifactId>andy</artifactId>
-            <version>[0.27,1.0.0)</version>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.8.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-junit-jupiter</artifactId>
+            <version>4.6.1</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
@@ -31,11 +43,11 @@
                 </configuration>
             </plugin>
 
-            <plugin>
-                <groupId>io.github.cse1110</groupId>
-                <artifactId>andy-maven-plugin</artifactId>
-                <version>0.3</version>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>io.github.cse1110</groupId>-->
+<!--                <artifactId>andy-maven-plugin</artifactId>-->
+<!--                <version>0.3</version>-->
+<!--            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
